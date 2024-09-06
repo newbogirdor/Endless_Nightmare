@@ -1,0 +1,183 @@
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  /* codigo do jogo abaixo*/
+  .container{
+    display: flex;
+    justify-content: center;
+   
+
+  }
+  
+  .glass-container{
+    display: block;
+    max-width: 72vw;
+    margin-top: 10vh;
+   
+  }
+  
+  .logo{
+    
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 14px;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin: 10px;
+    position: fixed; /* Fixa a barra de navegação no topo */
+    width: 100%; /* Faz com que a barra de navegação ocupe toda a largura */
+    top: 0;
+    left: 0;
+    padding-top: 15px;
+   
+}
+ul.nav-links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex; /* Exibe os itens em linha */
+}
+li.nav-link{
+    margin-left: 30px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+
+
+  body{
+  
+    text-align: center;
+    justify-content: center;
+    background-image: url(https://i.ibb.co/pXCm3cx/background-image.jpg;);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  
+    height: 100vw;
+    
+    
+  font-family: 'Inter', sans-serif;
+
+
+  
+
+ 
+  
+  }
+  
+  
+  
+  
+  h1 {
+  
+  
+    color: #FFC700;
+    /*border: 1px solid blue;*/
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    
+    font-family: 'Emilys Candy', cursive;
+    
+  }
+  
+  h3{
+    
+    font-size: 16px;
+    line-height: 19px;
+    color: white;
+  }
+  
+  
+  
+  
+  h3 span{
+  
+  color: #FFC700;
+  }
+  
+  p {
+  
+    font-size: 20;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 72px;
+    color: white;
+    opacity: .7;
+  }
+  
+  a{
+  
+    padding: 12px 32px;
+    border: 1px solid gray;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+  
+    color: gray;
+    opacity: 0.6;
+  }
+  
+  
+  a:hover{
+  
+    text-decoration: none;
+  color: #040101;
+  background-color: #FFC700;
+  }
+  
+  /*  elemento de teste
+  .elemento1{
+  
+  text-decoration: none;
+  color: #040101;
+  background-color: #FFC700;
+  opacity: 1;
+  
+  }
+  */
+  .playButton{
+  
+    
+    color: #4e4a4a;
+    background-color: #FFC700;
+
+    padding: 12px 32px;
+  
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    opacity: 1;
+    
+   
+    cursor: pointer;
+    }
+  
+  .elemento2 {
+  
+    text-decoration: none;
+    color: #FFFFFF;
+    width: 119px;
+    height: 24px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: white;
+  opacity: 0.6;
+  
+  }
